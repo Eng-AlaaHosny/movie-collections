@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Movie Search App</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="user-icon" onclick="navigateToUserPage()">
+
+      <i class="fas fa-user"></i>
+
+    </div>
+
+  </header>
+
+  
+
+  <div class="container">
+
+    <h1>🎬 Movie Search</h1>
+
+    <input type="text" id="searchInput" placeholder="Enter movie title..." />
+
+    <button onclick="searchMovie()">Search</button>
+
+    <div id="results"></div>
+
+  </div>
+
+
+
+  <!-- Add this modal for creating new lists -->
+
+  <div id="listModal" class="modal">
+
+    <div class="modal-content">
+
+      <span class="close" onclick="closeModal()">&times;</span>
+
+      <h3>Create New List</h3>
+
+      <input type="text" id="listNameInput" placeholder="Enter list name">
+
+      <button onclick="createNewList()">Create</button>
+
+    </div>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+
+<!-- Add this modal for selecting lists -->
+
+<div id="selectListModal" class="modal">
+
+  <div class="modal-content">
+
+    <span class="close" onclick="closeSelectListModal()">&times;</span>
+
+    <h3>Select a List</h3>
+
+    <div id="listOptionsContainer"></div>
+
+  </div>
+
+</div>
