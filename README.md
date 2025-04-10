@@ -3,7 +3,7 @@ Overview
 
 The Movie Search is a web application that allows users to search for movies using the OMDB API, create custom movie lists, and manage their collections. Users can browse movie information, add movies to personalized lists, and view/edit their collections.
 Features
-
+```
     Movie Search: Search for movies by title using the OMDB API
 
     Custom Lists: Create and manage personalized movie lists
@@ -66,3 +66,4 @@ Credits
     OMDB API for movie data
 
     Font Awesome for icons
+```
