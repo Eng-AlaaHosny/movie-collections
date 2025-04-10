@@ -38,13 +38,14 @@ No installation is required! Simply open `index.html` in any modern web browser.
    - Delete lists or remove movies by clicking the × icons
 
 ## File Structure
+```
 movie-collections/
 ├── index.html # Main application page with search functionality
 ├── user.html # User page for managing movie lists
 ├── script.js # Main JavaScript file with core functionality
 ├── user.js # JavaScript for user page functionality
 └── style.css # Styles for the entire application
-
+```
 
 ## Credits
 
