@@ -30,14 +30,14 @@ Technologies Used
 
 Installation
 
-No installation required! Simply open index.html in any modern web browser.
+No installation is required! Simply open index.html in any modern web browser.
 How to Use
 
     Search for Movies:
 
         Enter a movie title in the search box
 
-        Click "Search" to view results
+        Click "Search" to view the results
 
         Click "Add to List" on any movie to save it
 
@@ -60,18 +60,6 @@ File Structure
     user.js - JavaScript for user page functionality
 
     style.css - Styles for the entire application
-
-Future Improvements
-
-    Add movie detail pages
-
-    Implement user accounts for cloud storage
-
-    Add sorting/filtering options for lists
-
-    Include more movie information from the API
-
-    Add rating system for movies
 
 Credits
 
